@@ -1,0 +1,134 @@
+.principalflex{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(142, 186, 248);
+    border: 2px solid red;
+    padding: 10px;
+    justify-content: space-evenly ;
+    gap: 10px;
+    
+}
+
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid yellow;
+    width: 45%;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: white;
+
+
+}
+.firs{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(216, 136, 17);
+    align-items: center;
+    margin: 6px ;
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+}
+
+.item2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid yellow;
+    width: 45%;
+    justify-content: space-evenly;
+    background-color: white;
+
+
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(216, 136, 17);
+    align-items: center;
+    margin: 6px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    background-color: lightgray;
+
+}
+.primero{
+     order: 3;
+}
+.segundo{
+    order: 5;
+}
+.tercero{
+    order: 1;
+}
+.cuarto{
+    order: 4;
+}
+.quinto{
+    order: 6;
+}
+.sexto{
+    order: 2;
+}
+
+.item3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    border: 2px solid yellow;
+    width: 45%;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: white;
+    
+
+}
+.thirt{
+    display: flex;
+    flex-wrap: wrap wrap-reverse;
+    border: 2px solid rgb(216, 136, 17);
+    align-items: center;
+    margin: 6px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+
+}
+.item4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    border: 2px solid yellow;
+    width: 45%;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: white;
+
+}
+.for{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(216, 136, 17);
+    align-items: center;
+    margin: 6px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    background-color: lightgray;
+
+
+}
+
+@media (max-width: 500px){
+    .item4{
+        
+        background-color: red;
+       
+    
+    
+    }
+}
+
+
